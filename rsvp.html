@@ -1,0 +1,80 @@
+<!doctype html> 
+<html lang="en-AU">
+<head>
+	<title>Bunch of Hackz</title>
+	<!--
+	Name: Joyce Wing Yan Lau
+	Student Number: 42377029
+	Tutor: Jonathon Holland (T1)
+	DECO7140 Part 1B
+	-->
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/javascript.js"></script>
+	<script type="text/javascript" src="js/rsvpvalidation.js"></script>
+</head>
+<body>
+	<header>
+		<div class="logo">
+		<a href="index.html"><img src="images/bohlogo.svg" alt="BoH Logo" height="200"></a>
+		</div>
+		<div class="socialmedia">
+		<a href="http://www.facebook.com"><img src="images/facebook.svg" alt="Facebook Icon" height="50"></a>
+		<a href="http://www.twitter.com"><img src="images/twitter.svg" alt="Twitter Icon" height="50"></a>
+		<a href="http://www.googleplus.com"><img src="images/googleplus.svg" alt="Google Plus Icon" height="50"></a>
+		<img src="images/rss.svg" alt="RSS Icon" height="50">
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</nav>
+<section>
+			<div class="mainsection">
+					<article class="firstpost post">
+							<h2>RSVP to an Event</h2>
+								<p>Fill in the form below to RSVP for an upcoming events. Just enter your name, email address and the date of the event you would like to atten. Feel free to leave any comments regarding the event. Everyone is welcome. Don't forget to add the event to your google calendar! Feel free to subscribe to our <a href="upcomingevents.html">google calendar</a>.</p>
+								<form id="rsvp">
+										<p><label for="name">Name</label> <input type="text" name="name" id="rsvpname" placeholder="Name" /></p>
+										<div class="errorhide" id="nameerror2"><p>Please enter a Name</p></div>
+										<p><label for="email">E-mail</label> <input type="email" name="email" id="rsvpemail" placeholder="E-mail" /></p>
+										<div class="errorhide" id="emailerror2"><p>Please enter a valid e-mail</p></div>
+										<p><label for="date">Event Date</label> <input type="date" name="date" id="rsvpdate"></p>
+										<div class="errorhide" id="dateerror2"><p>Please enter a date after today</p></div>
+										<p><label for="message">Message</label><textarea placeholder="Please leave a message" id="rsvpmessage"></textarea></p>
+										<div class="errorhide" id="messageerror2"><p>Please enter your theme idea</p></div>
+										<button id="submitrsvp" type="button" class="">SUBMIT</button>
+									</form>
+					</article>
+						<section class="leftside">
+						<section class="sidebar">
+							<p><a href="upcomingevents.html"><img src="images/eventcalendar.svg" alt="upcoming events" height="100"></a></p>
+							<p><a href=#pastevents><img src="images/pastevents.svg" alt="past events" height="100"></a></p>
+							<p><a href="submitatheme.html"><img src="images/submitatheme.svg" alt="submit a theme" height="100"></a></p>
+						</section>	
+						<section class = "sidebar" >
+							<p>
+								<img id="slideshow" src="images/computers.jpg" />
+							</p>
+						</section>
+					</section> 
+					<article class="post">
+					</article>
+				</div>
+				
+		<footer>
+			<p>Bunch of Hackz 2015</p>
+		</footer>
+</section>
+
+
+</body>
+</html>

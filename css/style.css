@@ -1,0 +1,241 @@
+/* 
+Joyce Wing Yan Lau
+Student Number: 42377029
+DECO7140 (T1)
+Tutor: Jonathon Holland
+*/
+body{
+  background-image: url("../images/backgroundfinal.svg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #444444;
+}
+header{
+	width: 70%;
+	margin: auto;
+	background-color:#E0E0E0;
+
+}
+@font-face{
+	font-family: rabbid_highway;
+	src:local(rabbid_highway),url("../fonts/Rabbid-Highway-Sign.ttf") format("TrueType");
+}
+h1{
+	font-family: Arvo, Georgia, Times, Serif;
+	font-size: 46pt;
+	font-weight: bold;
+}
+h2{
+	font-family: Arvo, Georgia, Times, Serif;
+	font-size: 30pt;
+	font-weight: bold;
+}
+p{
+	font-family: "Pt Sans", sans-serif;
+	font-size: 1.40em;
+}
+li{
+	font-family: "Pt Sans", sans-serif;
+	font-size: 1.40em;
+}
+/*------------------------STYLING FOR NAVIGATION BAR ------Followed tutorial on http://www.htmlgoodies.com/beyond/css/how-to-create-horizontal-navigation-with-css3.html -------------*/
+nav{
+	width: 70%;
+	height: auto;
+	background-color: #E0E0E0;
+	text-align: center;
+	margin: auto;
+
+}
+nav ul{
+	list-style-type: none;
+	color: white;
+	margin: 0;
+	padding: 20px;
+}
+nav li{
+	display: inline;
+	padding: 10px;
+
+}
+nav li a{
+	background-color: #ACCFCC;
+	border-radius: 8px;
+	transition: all 0.5s ease 0.01s;
+	color: black;
+	padding: 10px;
+}
+nav li a:link{
+	text-decoration: none;
+	color: black;
+	font-family: rabbid_highway, Arvo, Georgia, Times, Serif;
+	font-size: 1.5vw;
+}
+nav li a:hover{
+	color: #8A0917;
+	background-color: #FFF;
+}
+nav li a:active{
+	color: #8A0917;
+	background-color: black;
+}
+/*------------------------------STYLING FOR HEADER ELEMENTS----------------------*/
+.logo{
+	margin-left: 2%;
+}
+.socialmedia{
+	width: 80%;
+	margin-left: 75%;
+	margin-top:-7%;
+}
+/*--------------------------STYLING FOR MAIN CONTENT----------------------*/
+.mainsection {
+	background-color: #E0E0E0;
+	width: 70%;
+	margin: auto;
+}
+
+.post{
+	width: 60%;
+	overflow: hidden;
+	margin-left: 2%;
+}
+.firstpost{
+	float: left;
+}
+.postinfo ul li{
+	list-style-type: none;
+}
+.showcomment{
+	display: block;
+}
+.hidecomment{
+	display: none;
+
+}
+/*---------------STYLING FOR GOALS LIST ON ABOUT US PAGE ----------------------*/
+.goals li{
+	list-style-type: square;
+}
+.sidebar{
+	background-color: #E0E0E0;
+	float: left;
+	width: 37%;
+}
+.sidebar p{
+	width: 100%;
+	margin: auto;
+}
+.sidebar p img{
+	width: 100%;
+	margin: auto;
+}
+/*---------------------------INDICATE WHEN LINK IS ACTIVE ---------------------*/
+#selected{
+	color: #E0E0E0;
+	background-color: #8A0917;
+}
+/*---------------------------SUBMIT BUTTONS------------------------------------*/
+#submitcontact, #submittheme, #submitrsvp{
+	display: inline-block;
+	font-size: .9em;
+	margin: 0;
+	margin-top: 4px;
+	color: #B8B8B8;
+	padding: 5px 8px;
+	border: 0;
+	background-color: #ECECEC;
+	float: right;
+}
+
+#submitcontact.active, #submittheme.active, #submitrsvp.active {
+	cursor: pointer;
+	background-color: #FF9D32;
+	color: #FFF;
+}
+
+#submitcontact.active:hover, #submittheme.active:hover, #submitrsvp.active:hover {
+	background-color: #E68214;
+
+}
+.errorhide{
+	display: none;
+}
+.erroractive{
+	display: block;
+}
+/*--------------------------------------STYLING FOR GALLERY IN PROJECT PAGE-------------------*/
+#gallery {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#gallery ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#gallery ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+#gallery ul li img{
+	width: 80%;
+}
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+footer{
+	font-family: "PT Sans", sans-serif;
+	background-color: #E0E0E0;
+	margin: auto;
+	width: 70%;
+	text-align: center;
+}

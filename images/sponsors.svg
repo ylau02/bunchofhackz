@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg4165" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="80.802" width="580.83" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 580.82801 80.802003" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs4167">
+  <linearGradient id="linearGradient4343-7" y2="713.96" gradientUnits="userSpaceOnUse" x2="866.71" gradientTransform="matrix(2.8383 0 0 .99151 -2082.5 -337.66)" y1="810.94" x1="865.7">
+   <stop id="stop4339" stop-color="#accfcc" offset="0"/>
+   <stop id="stop4341" stop-color="#accfcc" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata4170">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -971.56)">
+  <g id="g4731" transform="translate(-92.286 582)">
+   <rect id="rect4319-4" stroke-opacity="0" ry="15.864" height="79.124" width="579.15" y="389.26" x="93.614" fill="url(#linearGradient4343-7)"/>
+   <text id="text4727" style="word-spacing:0px;letter-spacing:0px" line-height="125%" font-size="20px" y="449.50507" x="291.40585" font-family="sans-serif" xml:space="preserve" fill="#000000"><tspan id="tspan4729" style="text-anchor:middle;text-align:center" font-size="37.5px" y="449.50507" x="291.40585" font-family="&apos;Rabbid Highway Sign Caps&apos;">                       sponsors</tspan></text>
+  </g>
+ </g>
+</svg>
